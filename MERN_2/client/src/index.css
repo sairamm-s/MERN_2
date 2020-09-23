@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+.login {
+  padding: 50px;
+  background: #ededed;
+  box-shadow: inset 5px 5px 0px #e8e8e8, inset -5px -5px 0px #e8e8e8;
+}
+.register {
+  padding: 50px;
+  background: #ededed;
+  box-shadow: inset 5px 5px 0px #e8e8e8, inset -5px -5px 0px #e8e8e8;
+}
+.dashboard {
+  padding: 50px;
+  background: #ededed;
+  box-shadow: inset 5px 5px 0px #e8e8e8, inset -5px -5px 0px #e8e8e8;
+}
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background: #ededed;
+  color: #333;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  background: #ededed !important;
+  border: none;
+  box-shadow: 5px 5px 10px #c9c9c9, -5px -5px 10px #c9c9c9 !important;
+}
+/* Overlay */
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.landing {
+  background: url('./showcase.jpg') no-repeat center center;
+  height: 100vh;
+}
+.landing h3 {
+  margin-top: 150px !important;
+}
+li a:hover {
+  color: white !important;
+}
